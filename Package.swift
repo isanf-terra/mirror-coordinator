@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "main"),
-        .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", branch: "master"),
+        .package(url: "https://github.com/isanf-terra/mirror-swiftuix.git", branch: "main"),
     ],
     targets: [
         .target(
