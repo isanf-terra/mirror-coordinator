@@ -1,0 +1,78 @@
+{
+  "originHash" : "71a3efeb53510c667bedbf7c759bd74ef101cb137c90733a177d2815a3b5e0d2",
+  "pins" : [
+    {
+      "identity" : "mirror-merge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/isanf-terra/mirror-merge.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "82d7bb9ebd04e63a11817ee22e6c38a596aa1473"
+      }
+    },
+    {
+      "identity" : "mirror-subproces",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/isanf-terra/mirror-subproces.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "274031e8aaa22ede6463552a09670957500d3110"
+      }
+    },
+    {
+      "identity" : "mirror-swallow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/isanf-terra/mirror-swallow.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "026281e083f3b6790962d6704e1008e555845b84"
+      }
+    },
+    {
+      "identity" : "mirror-swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/isanf-terra/mirror-swiftuix.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "72ce1fe3e6ed1e3770308f748cb4ee9f545528e1"
+      }
+    },
+    {
+      "identity" : "swift-atomics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-atomics.git",
+      "state" : {
+        "revision" : "b601256eab081c0f92f059e12818ac1d4f178ff7",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections",
+      "state" : {
+        "revision" : "c1805596154bb3a265fd91b8ac0c4433b4348fb0",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    },
+    {
+      "identity" : "swift-system",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-system",
+      "state" : {
+        "revision" : "61e4ca4b81b9e09e2ec863b00c340eb13497dac6",
+        "version" : "1.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}

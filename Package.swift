@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "Coordinator",
             dependencies: [
-                "Merge",
-                "SwiftUIX"
+                .product(name: "Merge", package: "mirror-merge"),
+                .product(name: "SwiftUIX", package: "mirror-swiftuix"),
             ],
             path: "Sources"
         ),
