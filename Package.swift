@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Coordinator",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v13),
         .macOS(.v13),
         .tvOS(.v13),
         .watchOS(.v6)
@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "Coordinator", targets: ["Coordinator"])
     ],
     dependencies: [
-        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "main")
+        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "iOS13")
     ],
     targets: [
         .target(
