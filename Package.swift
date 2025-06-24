@@ -14,15 +14,13 @@ let package = Package(
         .library(name: "Coordinator", targets: ["Coordinator"])
     ],
     dependencies: [
-        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "main"),
-        .package(url: "https://github.com/isanf-terra/mirror-swiftuix.git", branch: "main"),
+        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "main")
     ],
     targets: [
         .target(
             name: "Coordinator",
             dependencies: [
-                .product(name: "Merge", package: "mirror-merge"),
-                .product(name: "SwiftUIX", package: "mirror-swiftuix"),
+                .product(name: "Merge", package: "mirror-merge")
             ],
             path: "Sources"
         ),
