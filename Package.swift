@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Coordinator",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
         .macOS(.v13),
         .tvOS(.v13),
         .watchOS(.v6)
