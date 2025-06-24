@@ -1,5 +1,5 @@
 {
-  "originHash" : "e8494108ea50f04098ac9ff7e00e7225297be310fce95e0fcc6de2c8aca099e2",
+  "originHash" : "44248ddec46e30a99fe1314c9f22bdc97ff85c81921422c8b74e8e590232e940",
   "pins" : [
     {
       "identity" : "mirror-merge",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/isanf-terra/mirror-merge.git",
       "state" : {
         "branch" : "main",
-        "revision" : "82d7bb9ebd04e63a11817ee22e6c38a596aa1473"
+        "revision" : "20a417bb4050485affa86a5c17fa7c1a1b5cdf27"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/isanf-terra/mirror-subproces.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "274031e8aaa22ede6463552a09670957500d3110"
+        "branch" : "iOS13",
+        "revision" : "cd08790f3936eeaeaa641e68dade9222aba4022b"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/isanf-terra/mirror-swallow.git",
       "state" : {
         "branch" : "main",
-        "revision" : "026281e083f3b6790962d6704e1008e555845b84"
+        "revision" : "1808e44aa6b2e1caf74af96f6d1b59c43b86829b"
       }
     },
     {
@@ -65,5 +65,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 4
 }
