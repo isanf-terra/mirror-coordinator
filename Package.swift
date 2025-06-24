@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "Coordinator", targets: ["Coordinator"])
     ],
     dependencies: [
-        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "master"),
+        .package(url: "https://github.com/isanf-terra/mirror-merge.git", branch: "main"),
         .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", branch: "master"),
     ],
     targets: [
